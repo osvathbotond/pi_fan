@@ -1,4 +1,3 @@
-
 import psutil
 import gpiozero
 import time
@@ -7,8 +6,6 @@ import numpy as np
 import scipy.interpolate as interpolate
 
 if __name__ == "__main__":
-    os.environ["GPIOZERO_PIN_FACTORY"] = "rpigpio"
-
     fan_curve = os.path.join(os.path.dirname(__file__), "fan_curve.dat")
     fan = gpiozero.PWMOutputDevice(14)
 
