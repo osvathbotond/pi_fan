@@ -1,0 +1,8 @@
+# A config file for the fan curve.
+# It should have two columns separated by a space: Temperature (in Celsius) and Fan speed (float in the range [0, 1]).
+# The temperature column should be strictry increasing.
+# The fan speed below the lowest set temperature will be zero.
+# The fan speed above the highest set temperature will be equal to the speed set at the highest temperature.
+60 0.3
+65 0.6
+70 1

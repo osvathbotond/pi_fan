@@ -1,0 +1,5 @@
+psutil
+numpy
+scipy
+gpiozero
+rpi-gpio
